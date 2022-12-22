@@ -1,0 +1,59 @@
+body,
+html {
+  height: 100%;
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: rgb(231, 230, 230);
+  font-size: 3rem;
+
+}
+
+
+.btn-xl {
+  padding: 1rem 2rem
+}
+
+.btn-primary {
+  background-color: orange;
+  border: orange;
+
+
+}
+
+.btn-primary:hover {
+  background-color: rgb(158, 87, 0) !important;
+}
+
